@@ -21,3 +21,18 @@ while(j<=5){
     console.log(j);
     j++;
 }
+
+//is prime 
+let n = 34935;
+let isPrime = true;
+
+for(let i=2;i*i<=n;i++){
+    if(n%i == 0){
+        isPrime = false;
+    }
+}
+if(isPrime == true){
+    console.log("Number is prime");
+}else{
+    console.log("Number is not prime");
+}
