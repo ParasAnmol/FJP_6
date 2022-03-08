@@ -5,3 +5,8 @@ console.log(str);
 
 let len = str.length;
 console.log(len);
+
+// Slice method is used to use a specifc part of string specify by you 
+
+let sli = str.slice(2,10);
+console.log(sli);
