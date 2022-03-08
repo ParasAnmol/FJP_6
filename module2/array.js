@@ -38,3 +38,8 @@ console.log("array after shift : " + elarr );
 console.log("array before unshift : " + elarr );
 elarr.unshift("new element");
 console.log("array after unshift : " + elarr );
+
+// length
+
+let len = elarr.length;
+console.log(len);
