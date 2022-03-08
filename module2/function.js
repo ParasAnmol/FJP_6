@@ -11,4 +11,4 @@ function sum(a,b){
     console.log("add of two num is " + add);
 }
 
-sum(3,4);
+sum(5,6);
