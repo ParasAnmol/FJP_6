@@ -15,3 +15,11 @@ console.log(sli);
 
 let repl = str.replace("fingertips","brain");
 console.log(repl);
+ 
+// uppercase lowercase 
+
+let upper = str.toUpperCase();
+console.log(upper);
+
+let lower = str.toLowerCase();
+console.log(lower);
