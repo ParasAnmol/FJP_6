@@ -1,4 +1,4 @@
-let str = "You make js on your fingertips";
+let str = "You make js on your fingertips ";
 console.log(str);
 
 // length of string 
@@ -13,7 +13,7 @@ console.log(sli);
  
 // replace method -- is used to replace a part of string with aprameter given by u 
 
-let repl = str.replace("fingertips","brain");
+let repl = str.replace("fingertips","brain ");
 console.log(repl);
  
 // uppercase lowercase 
@@ -23,3 +23,11 @@ console.log(upper);
 
 let lower = str.toLowerCase();
 console.log(lower);
+
+// concatinate 
+
+let con = upper.concat(lower);
+console.log(con);
+
+let fullname = upper  + lower ;
+console.log(fullname);
