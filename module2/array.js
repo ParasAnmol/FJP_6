@@ -13,3 +13,10 @@ console.log(elarr[3]);
 
 elarr[5] = 'make js on finger tips';
 console.log(elarr[5]);
+
+// Array method 
+// 1. Push  - with push we can add a new element in end of array
+
+console.log("array before push : " + elarr );
+elarr.push("new element");
+console.log("array after push : " + elarr );
