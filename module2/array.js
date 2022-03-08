@@ -20,3 +20,9 @@ console.log(elarr[5]);
 console.log("array before push : " + elarr );
 elarr.push("new element");
 console.log("array after push : " + elarr );
+
+// 2. Pop -- pop is used to remove a elemnt from end of the array 
+
+console.log("array before pop : " + elarr );
+elarr.pop();
+console.log("array after pop : " + elarr );
