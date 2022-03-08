@@ -28,3 +28,15 @@ let d = function minus(num1, num2){
         }
 
         console.log(d(3,2));
+
+// IIFE - Immediately invoked Function expression
+
+(function iife(){
+    console.log("IIFE");
+})();
+
+// IIFE with parameters 
+
+(function adiv(num1,num2){
+    console.log(num1/num2);
+})(12,4);
