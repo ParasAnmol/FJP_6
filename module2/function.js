@@ -20,3 +20,11 @@ function multiply(num1, num2){
 
 let ans = multiply(5,10);
 console.log(ans);
+
+// functions are the first class citizen in javascript because it can be store in variables
+
+let d = function minus(num1, num2){
+            return num1 - num2;
+        }
+
+        console.log(d(3,2));
