@@ -31,3 +31,8 @@ console.log(con);
 
 let fullname = upper  + lower ;
 console.log(fullname);
+
+// Split break the string at the basis of the spaces in string 
+
+let spl = str.split(" ");
+console.log(spl);
