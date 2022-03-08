@@ -26,3 +26,9 @@ console.log("array after push : " + elarr );
 console.log("array before pop : " + elarr );
 elarr.pop();
 console.log("array after pop : " + elarr );
+
+// 3. Shift -- shift always remove the first Elementof Array 
+
+console.log("array before shift : " + elarr );
+elarr.shift();
+console.log("array after shift : " + elarr );
