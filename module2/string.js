@@ -10,3 +10,8 @@ console.log(len);
 
 let sli = str.slice(2,10);
 console.log(sli);
+ 
+// replace method -- is used to replace a part of string with aprameter given by u 
+
+let repl = str.replace("fingertips","brain");
+console.log(repl);
