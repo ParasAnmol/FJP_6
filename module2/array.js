@@ -32,3 +32,9 @@ console.log("array after pop : " + elarr );
 console.log("array before shift : " + elarr );
 elarr.shift();
 console.log("array after shift : " + elarr );
+
+// 4. Unshift -- unshift is used to add the new elment in the start of a Array 
+
+console.log("array before unshift : " + elarr );
+elarr.unshift("new element");
+console.log("array after unshift : " + elarr );
