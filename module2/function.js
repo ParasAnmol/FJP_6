@@ -12,3 +12,11 @@ function sum(a,b){
 }
 
 sum(5,6);
+//  function with return type 
+
+function multiply(num1, num2){
+    return num1 * num2;
+}
+
+let ans = multiply(5,10);
+console.log(ans);
