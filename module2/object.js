@@ -44,3 +44,9 @@ console.log(batman);
 // Delete a key 
 delete batman.movies;
 console.log(batman);
+//Change a existing key
+Vigilante.friends.push("robin sharma")
+console.log(Vigilante);
+
+// Another method to acess object 
+console.log(Vigilante['Lastname']);
