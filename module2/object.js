@@ -41,3 +41,6 @@ console.log(Vigilante.Say());
 // Add a new key 
 batman.movies = ['dark knight','dark knight returns'];
 console.log(batman);
+// Delete a key 
+delete batman.movies;
+console.log(batman);
