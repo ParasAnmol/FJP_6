@@ -37,3 +37,7 @@ console.log(Vigilante.address.City);
 Vigilante.Say();
 //print function if there is something to return
 console.log(Vigilante.Say());
+
+// Add a new key 
+batman.movies = ['dark knight','dark knight returns'];
+console.log(batman);
