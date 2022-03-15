@@ -13,3 +13,5 @@ console.log(content);
 // update file content 
 fs.appendFileSync(fpath, " New thing");
 console.log(fs.readFileSync(fpath,'UTF-8'));
+// delete
+fs.unlinkSync(fpath);
