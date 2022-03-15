@@ -10,3 +10,6 @@ fs.writeFileSync(fpath, "You Nailed it long time ago");
 // Read file 
 let content =fs.readFileSync(fpath,'UTF-8');
 console.log(content);
+// update file content 
+fs.appendFileSync(fpath, " New thing");
+console.log(fs.readFileSync(fpath,'UTF-8'));
