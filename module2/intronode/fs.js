@@ -20,3 +20,9 @@ fs.unlinkSync(fpath);
 if(!fs.existsSync("NewDir")){
     fs.mkdirSync("NewDir")
 }
+//reada dir
+
+console.log(fs.readdirSync("/home/wamir/FJP_6/module1"));
+// remove dir 
+
+fs.rmdirSync("NewDir");
