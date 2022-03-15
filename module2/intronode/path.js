@@ -11,3 +11,5 @@ console.log(base);
 console.log(__dirname);
 
 console.log(__filename);
+let joinpath = path.join(__dirname,"test.js");
+console.log(joinpath);
