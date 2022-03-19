@@ -7,4 +7,4 @@ if(!fs.existsSync("qone")){
     fs.mkdirSync("qone")
 }
 let fpath= path.join(__dirname,"qone","q1.txt");
-fs.writeFileSync(fpath,"You gonna nail it");
+fs.writeFileSync(fpath,"new file has been made");
