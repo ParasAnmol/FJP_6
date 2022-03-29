@@ -10,8 +10,8 @@ function cb(error, response, html) {
     else{
         const dom = new JSDOM(html);
         const document = dom.window.document;
-        let teamsname = document.querySelectorAll(".name-link .name ");
+        let teamsname = document.querySelectorAll(".match-info.match-info-MATCH.match-info-MATCH-half-width .status-text");
         console.log(teamsname[0].textContent);
-        console.log(teamsname[1].textContent);
+        // console.log(teamsname[1].textContent);
     }
 }
