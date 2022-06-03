@@ -1,1 +1,1 @@
-console.log("You gonna nail it");
+you nail it
